@@ -27,15 +27,15 @@ OpenBook este un dispozitiv de citit carti electronice (e-book reader) conceput 
 | DMG2305UX-7 | [Mouser DMG2305UX-7](https://ro.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D) | [Datasheet](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
 | BD5229G-TR | [Mouser BD5229G-TR](https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/BD5229G-TR?qs=4kLU8WoGk0vvnhrrYwdszw%3D%3D) | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) |
 | CPH3225A | [Mouser CPH3225A](https://ro.mouser.com/ProductDetail/Seiko-Semiconductors/CPH3225A?qs=3etwrb1wR%252BhUOph6lAO7eg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/360/Seiko_Instruments_MicroBattery_E_20230330_2024Jan_-3561061.pdf) |
-| SI1308EDL-T1-GE3 | [Mouser SI1308EDL-T1-GE3](https://ro.mouser.com/ProductDetail/Vishay-Siliconix/SI1308EDL-T1-GE3?qs=kOVPxiBgdnqVftjfNRVkJQ%3D%3D) | [Datasheet](https://www.vishay.com/docs/66429/si1308edl.pdf) |
-| PGB1010603MR | [Mouser PGB1010603MR](https://ro.mouser.com/ProductDetail/Littelfuse/PGB1010603MR?qs=g%252BEszo6zu8N%252BmV7hYoCJ6A%3D%3D) | [Datasheet](https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b074ad25-c8e4-4dfa-b37a-a17b36a02f01&filename=littelfuse-pulseguard-esd-pgb1) |
-| SD0805S020S1R0 | [Mouser SD0805S020S1R0](https://ro.mouser.com/ProductDetail/AVX/SD0805S020S1R0?qs=sGAEpiMZZMvxTcfk8RxfwWWC8dzc9Nh8oqnkhGJ3%252BYE%3D) | [Datasheet](https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf) |
-| MBR0530 | [Mouser MBR0530](https://ro.mouser.com/ProductDetail/onsemi/MBR0530?qs=CMDrNmGUVl0RUZ%2FHn6U%2F%2FQ%3D%3D) | [Datasheet](https://www.onsemi.com/pdf/datasheet/mbr0530-d.pdf) |
-| 112A-TAAR-R03 | [Mouser 112A-TAAR-R03](https://ro.mouser.com/ProductDetail/ATTEND/112A-TAAR-R03?qs=f9yNj16SXrLKR57vzCjCwQ%3D%3D) | [Datasheet](https://www.attend.com.tw/data/download/file/112A-TAAR-R03.pdf) |
-| Rezistori 0402 | [Mouser Rezistori 0402](https://ro.mouser.com/c/passive-components/resistors/chip-resistor-surface-mount/?mounting%20style=SMD%2FSMT&package%20/%20case=0402%20%281005%20Metric%29) | [Datasheet](https://ro.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf) |
-| Condensatori 0402 | [Mouser Condensatori 0402](https://ro.mouser.com/c/passive-components/capacitors/ceramic-capacitors/?mounting%20style=SMD%2FSMT&package%20/%20case=0402%20%281005%20Metric%29) | [Datasheet](https://ro.mouser.com/datasheet/2/281/GRM_Series_DataSheet-1524307.pdf) |
-| Butoane SMD | [Mouser Butoane SMD](https://ro.mouser.com/c/electromechanical/switches/tactile-switches/?mounting%20style=SMD%2FSMT) | [Datasheet](https://ro.mouser.com/datasheet/2/307/en-b3u-1220938.pdf) |
-| Punct de test | [Mouser Punct de test](https://ro.mouser.com/c/connectors/contacts-terminals/test-points/) | [Datasheet](https://ro.mouser.com/datasheet/2/273/5019-534878.pdf) |
+| SI1308EDL-T1-GE3 | [Mouser SI1308EDL-T1-GE3](https://ro.mouser.com/ProductDetail/Vishay-Semiconductors/SI1308EDL-T1-GE3?qs=bX1%252BNvsK%2FBramh9tgpOaEw%3D%3D) | [Datasheet](https://www.vishay.com/doc?63399) |
+| PGB1010603MR | [Mouser PGB1010603MR](https://ro.mouser.com/ProductDetail/Littelfuse/PGB1010603MR?qs=gu7KAQ731URLg4GSnNNN7Q%3D%3D) | [Datasheet](https://www.littelfuse.com/assetdocs/pulseguard-esd-suppressors-pgb1-datasheet?assetguid=8a337998-d54d-466b-be4e-dc5bcd1f9321) |
+| SD0805S020S1R0 | [Mouser SD0805S020S1R0](https://ro.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/40/schottky-3165252.pdf) |
+| MBR0530 | [Mouser MBR0530](https://ro.mouser.com/ProductDetail/onsemi/MBR0530T3G?qs=3JMERSakebpEmdUS6GetdQ%3D%3D) | [Datasheet](https://www.onsemi.com/PowerSolutions/product.do?id=MBR0530T3G) |
+| 112A-TAAR-R03 | [Comet 112A-TAAR-R03](https://store.comet.srl.ro/Catalogue/Product/43497/) | [Datasheet](https://www.attend.com.tw/data/download/file/112A-TAAR-R03_Spec.pdf) |
+| Rezistori 0402 | [ESP32_WROVER_EAGLE-LTSPICE_RR0402](https://componentsearchengine.com/part-view/R0402%201%25%20100%20K%20(RC0402FR-07100KL)/YAGEO) | [Datasheet](https://ro.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf) |
+| Condensatori 0402 | [Condensatori 0402](https://componentsearchengine.com/part-view/R0402%201%25%20100%20K%20(RC0402FR-07100KL)/YAGEO) | [Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/513944/TDK/CC0402.html) |
+| Butoane SMD | [Butoane SMD](http://www.main-soul.com/evqp7c01p) | [Datasheet](https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906) |
+
 
 ## Descrierea functionalitatii hardware
 
