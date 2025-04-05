@@ -12,21 +12,21 @@ OpenBook este un dispozitiv de citit carti electronice (e-book reader) conceput 
 
 | Componenta | Descriere | Link Mouser | Link Datasheet |
 |------------|-----------|-------------|----------------|
-| ESP32-C6-WROOM-1-N8 | Modul WiFi/BLE | [Mouser ESP32-C6-WROOM-1-N8](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8) | [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf) |
-| USB4110-GF-A | Conector USB Type-C | [Mouser USB4110-GF-A](https://www.mouser.com/ProductDetail/GCT/USB4110-GF-A) | [Datasheet](https://gct.co/files/drawings/usb4110.pdf) |
-| USBLC6-2SC6Y | Protectie ESD USB | [Mouser USBLC6-2SC6Y](https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y) | [Datasheet](https://www.st.com/resource/en/datasheet/usblc6-2.pdf) |
-| XC6220A331MR-G | Regulator LDO 3.3V | [Mouser XC6220A331MR-G](https://www.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G) | [Datasheet](https://www.torexsemi.com/file/xc6220/XC6220.pdf) |
-| MCP73831 | Controller incarcare Li-Po | [Mouser MCP73831](https://www.mouser.com/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT) | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf) |
-| W25Q512JVEIQ | Memorie Flash SPI 64MB | [Mouser W25Q512JVEIQ](https://www.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ) | [Datasheet](https://www.winbond.com/resource-files/w25q512jv_spi_revd_112320.pdf) |
-| DS3231SN | RTC cu backup | [Mouser DS3231SN](https://www.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN) | [Datasheet](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf) |
+| ESP32-C6-WROOM-1-N8 | Modul WiFi/BLE | [Mouser ESP32-C6-WROOM-1-N8](https://eu.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D) | [Datasheet](https://eu.mouser.com/datasheet/2/891/Espressif_ESP32_C6_WROOM_1__Datasheet_V0_1_PRELIMI-3239987.pdf) |
+| USB4110-GF-A | Conector USB Type-C | [Mouser USB4110-GF-A](https://eu.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D) | [Datasheet](https://eu.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) |
+| USBLC6-2SC6Y | Protectie ESD USB | [Mouser USBLC6-2SC6Y](https://eu.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D) | [Datasheet](https://eu.mouser.com/datasheet/2/389/usblc6_2sc6y-1852505.pdf) |
+| XC6220A331MR-G | Regulator LDO 3.3V | [Mouser XC6220A331MR-G](https://eu.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D) | [Datasheet](https://eu.mouser.com/datasheet/2/760/xc6220-3371556.pdf) |
+| MCP73831 | Controller incarcare Li-Po | [Mouser MCP73831](https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-5ACI-OT?qs=hH%252BOa0VZEiAcgAcEkuamXg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/268/MCP73831_Family_Data_Sheet_DS20001984H-3441711.pdf) |
+| W25Q512JVEIQ | Memorie Flash SPI 64MB | [Mouser W25Q512JVEIQ](https://ro.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf) |
+| DS3231SN | RTC cu backup | [Mouser DS3231SN](https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/609/DS3231-3421123.pdf) |
 | BME680 | Senzor de mediu | [Mouser BME680](https://ro.mouser.com/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/783/BST_BME680_DS001-1509608.pdf) |
-| MAX17048G+T10 | Controller de monitorizare baterie | [Mouser MAX17048G+T10](https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX17048G+T10) | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) |
-| 744043680 | Bobina 6.8uH | [Mouser 744043680](https://www.mouser.com/ProductDetail/Wurth-Elektronik/744043680) | [Datasheet](https://www.we-online.com/catalog/datasheet/744043680.pdf) |
+| MAX17048G+T10 | Controller de monitorizare baterie | [Mouser MAX17048G+T10](https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17048G%2bT10?qs=D7PJwyCwLAoGnnn8jEPRBQ%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/609/MAX17048_MAX17049-3469099.pdf) |
+| 744043680 | Bobina 6.8uH | [Mouser 744043680](https://ro.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D) | [Datasheet](https://www.we-online.com/components/products/datasheet/744043680.pdf) |
 | CEL0014 | Baterie Li-Po 2000mAh | [Comet CEL0014](https://www.comet.srl.ro/index.php?main_page=product_info&products_id=9078) | [Datasheet](https://www.tme.eu/Document/e0683d8c34e6d878124489f71bffb6ee/cel0014.pdf) |
-| FH34SRJ-24S-0.5SH | Conector display e-paper | [Mouser FH34SRJ-24S-0.5SH](https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-24S-05SH99) | [Datasheet](https://www.hirose.com/product/document?clcode=CL0580-1255-6-99&productname=FH34SRJ-24S-0.5SH(99)) |
-| DMG2305UX-7 | MOSFET Canal P | [Mouser DMG2305UX-7](https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7) | [Datasheet](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
-| BD5229G-TR | Supervisor tensiune | [Mouser BD5229G-TR](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BD5229G-TR) | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) |
-| CPH3225A | Capacitor supercondensator | [Mouser CPH3225A](https://www.mouser.com/ProductDetail/Seiko-Instruments/CPH3225A) | [Datasheet](https://www.sii.co.jp/en/me/datasheets/chip-capacitor/cph3225a/) |
+| FH34SRJ-24S-0.5SH | Conector display e-paper | [Mouser FH34SRJ-24S-0.5SH](https://ro.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-24S-0.5SH99?qs=vcbW%252B4%252BSTIpKBl5ap9J8Fw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/185/FH34SRJ_24S_0_5SH_99__CL0580_1255_6_99_2DDrawing_0-1615044.pdf) |
+| DMG2305UX-7 | MOSFET Canal P | [Mouser DMG2305UX-7](https://ro.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D) | [Datasheet](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
+| BD5229G-TR | Supervisor tensiune | [Mouser BD5229G-TR](https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/BD5229G-TR?qs=4kLU8WoGk0vvnhrrYwdszw%3D%3D) | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) |
+| CPH3225A | Capacitor supercondensator | [Mouser CPH3225A](https://ro.mouser.com/ProductDetail/Seiko-Semiconductors/CPH3225A?qs=3etwrb1wR%252BhUOph6lAO7eg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/360/Seiko_Instruments_MicroBattery_E_20230330_2024Jan_-3561061.pdf) |
 
 ## Descrierea functionalitatii hardware
 
