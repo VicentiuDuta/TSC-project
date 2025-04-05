@@ -53,31 +53,29 @@ OpenBook este un dispozitiv de citit carti electronice (e-book reader) conceput 
 
 ## Descrierea functionalitatii hardware
 
-### Alimentare si managementul energiei
+### Sistem de alimentare si gestionare a energiei
 
-Dispozitivul poate fi alimentat fie prin USB-C, fie prin bateria Li-Po incorporata. Circuitul de incarcare MCP73831 asigura incarcarea corecta a bateriei cand dispozitivul este conectat la USB. Tensiunea de la USB sau baterie este convertita la 3.3V prin regulatorul LDO XC6220A331MR-G pentru alimentarea componentelor interne.
+Dispozitivul OpenBook implementeaza un sistem dual de alimentare, functionand atat prin conectorul USB-C cat si prin bateria reincarcabila Li-Po. Modulul MCP73831 gestioneaza procesul de incarcare inteligenta a bateriei, asigurand protectie la supraincarcare si optimizarea ciclurilor de incarcare. Convertorul LDO XC6220A331MR-G stabilizeaza tensiunea la 3.3V pentru toate componentele electronice, asigurand functionarea eficienta a sistemului.
 
-Un circuit special pentru ecranul e-paper a fost implementat pentru a genera tensiunile necesare acestuia prin utilizarea bobinei 744043680 si a diodelor Schottky pentru redresare.
+Pentru alimentarea afisajului e-paper, care necesita tensiuni specifice, am proiectat un circuit dedicat bazat pe bobina inductiva 744043680 si diode Schottky pentru generarea si stabilizarea tensiunilor necesare functionarii optime a ecranului.
 
-La mufa USB au fost aprobate 2 erori in DRC pentru respectarea dimensiunilor mecanice specificate.
+### Unitatea centrala de procesare
 
-### Microcontroller ESP32-C6
+La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcontrolerul ESP32-C6 impreuna cu conectivitate wireless WiFi si Bluetooth. Acesta coordoneaza toate operatiunile dispozitivului, de la gestionarea interfetei cu utilizatorul pana la procesarea si afisarea textului. Designul include butoane dedicate pentru reset si boot, facilitand atat utilizarea normala cat si procesele de dezvoltare si depanare.
 
-ESP32-C6 este responsabil pentru controlul tuturor functionalitatilor dispozitivului. Am utilizat versiunea cu modul WiFi integrat (ESP32-C6-WROOM-1-N8) ce ofera si conectivitate Bluetooth. Dispozitivul include un buton de reset si un buton de boot pentru programare.
+### Sisteme de conectivitate si interfete
 
-### Conectori si interfete
+- **Portul USB-C**: Asigura atat alimentarea si incarcarea bateriei cat si transferul de date pentru gestionarea bibliotecii digitale
+- **Slotul microSD**: Permite extinderea capacitatii de stocare pentru biblioteci extinse de carti electronice
+- **Conectorul FPC cu 24 pini**: Interfata specializata pentru afisajul e-paper de 7.5 inch
+- **Conectorul Qwiic/Stemma QT**: Faciliteaza integrarea modulara a senzorilor si perifericelor I2C aditionale
 
-- **USB-C**: Pentru incarcare si transfer de date
-- **Slot microSD**: Pentru extinderea memoriei si stocarea cartilor
-- **Conector pentru ecran e-paper**: Interfata FPC cu 24 de pini pentru ecranul e-Paper de 7.5 inch
-- **Conector Qwiic/Stemma QT**: Pentru extinderea cu senzori si periferice I2C
+### Subsisteme de stocare si functii auxiliare
 
-### Memorii si accesorii
-
-- **Memorie Flash SPI**: W25Q512JVEIQ de 64MB pentru stocarea firmware-ului si a cartilor
-- **RTC DS3231**: Ceas in timp real cu backup prin supercapacitor pentru mentinerea timpului
-- **Senzor de mediu BME688**: Pentru monitorizarea temperaturii, umiditatii si calitatii aerului
-- **Circuit de monitorizare baterie MAX17048**: Pentru a furniza utilizatorului informatii precise despre nivelul bateriei
+- **Memoria flash W25Q512JVEIQ**: Ofera 64MB de spatiu de stocare persistent pentru sistemul de operare si datele utilizatorului
+- **Modulul RTC DS3231**: Mentine cronometrarea precisa a timpului real, chiar si cand dispozitivul este oprit, datorita sistemului de backup cu supercapacitor
+- **Senzorul ambiental BME688**: Monitorizeaza conditiile de mediu (temperatura, umiditate, presiune atmosferica si calitatea aerului) pentru ajustarea optima a parametrilor de afisare
+- **Circuitul integrat MAX17048**: Monitorizeaza cu precizie starea bateriei si ofera utilizatorului informatii despre autonomia ramasa
 
 ## Descrierea pinilor ESP32-C6 utilizati
 
