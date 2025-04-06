@@ -77,6 +77,10 @@ La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcon
 - **Senzorul ambiental BME688**: Monitorizeaza conditiile de mediu (temperatura, umiditate, presiune atmosferica si calitatea aerului) pentru ajustarea optima a parametrilor de afisare
 - **Circuitul integrat MAX17048**: Monitorizeaza cu precizie starea bateriei si ofera utilizatorului informatii despre autonomia ramasa
 
+## Design Log
+- **Am modificat pozitionarea butoanelor din carcasa pentru a se potrivi cu cele de pe PCB.
+- **Am aprobat 2 erori DRC de dimenisiune pentru USB.
+
 ## Descrierea pinilor ESP32-C6 utilizati
 
 | Pin ESP32-C6 | Functie | Descriere |
