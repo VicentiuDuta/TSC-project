@@ -97,3 +97,7 @@ La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcon
 | IO21, IO22 | SDA, SCL | Comunicatii I2C |
 | IO23 | EPD_RST | Reset pentru display |
 | EN | RESET | Semnal de reset pentru ESP32 |
+
+## Imagini:
+![PCB 3D](Images/3D-PCB.png)
+![2D PCB](Images/2D-PCB.png)
