@@ -79,7 +79,7 @@ La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcon
 
 ## Design Log
 - Am modificat pozitionarea butoanelor din carcasa pentru a se potrivi cu cele de pe PCB.
-- Am aprobat 2 erori DRC de dimenisiune pentru USB.
+- Am aprobat 2 erori DRC de dimenisiune pentru USB, conform enuntului.
 
 ## Descrierea pinilor ESP32-C6 utilizati
 
