@@ -87,7 +87,8 @@ La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcon
 |--------------|---------|-----------|
 | IO0 | INT_RTC | Semnal de intrerupere de la RTC |
 | IO1 | 32KHZ | Semnal de ceas de la RTC |
-| IO2, IO3 | EPD_BUSY, SPI | Comunicatii cu display-ul si cardul SD |
+| IO2 | MISO | Comunicatie SPI cu cardul SD|
+| IO3 | EPD_BUSY | Semnal ocupat de la e-paper |
 | IO4, IO5 | SS_SD, EPD_DC | Selectie card SD si control date/comanda e-paper |
 | IO6, IO7 | SCK, MOSI | Clock SPI si date de iesire |
 | IO8 | GPIO8 | Pin de uz general |
@@ -95,6 +96,8 @@ La baza sistemului se afla modulul ESP32-C6-WROOM-1-N8, care integreaza microcon
 | IO10, IO11 | EPD_CS, FLASH_CS | Selectie chip pentru display si memoria flash |
 | IO12, IO13 | USB_D-, USB_D+ | Comunicatii USB |
 | IO15 | IO/CHANGE | Buton de schimbare pagina |
+| IO16 | TX | Transmitere seriala (UART) |
+| IO17 | RX | Receptie seriala (UART) |
 | IO18 | RTC_RST | Reset pentru RTC |
 | IO19 | I2C_PW | Control alimentare pentru perifericele I2C |
 | IO20 | EPD_3V3_C | Control alimentare pentru display |
