@@ -8,8 +8,6 @@ OpenBook este un dispozitiv de citit carti electronice (e-book reader) conceput 
 
 ![Diagrama bloc](Images/block_diagram.png)
 
-## BOM (Bill Of Materials)
-
 ## Bill Of Materials (BOM)
 | Componenta                 | Link                                                                                                                                                                | Datasheet                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
