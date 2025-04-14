@@ -2489,7 +2489,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device="" value="OpenBook"/>
 <part uuid="2882400016" name="J2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="SAMACSYS_PARTS_USB4110-GF-A" device="" package3d_urn="urn:adsk.eagle:package:47601148/1" override_locally_modified="yes"/>
 <part name="GND1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="GND" device=""/>
 <part name="GND3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="GND" device=""/>
@@ -2563,7 +2563,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="GND27" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="GND" device=""/>
 <part name="C6" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="100nF"/>
 <part name="BOOT_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="BUTTON_CUSYOMV1" device=""/>
-<part name="R_CHANGE" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47601124/1"/>
+<part name="R_CHANGE" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47601124/1" value="10K"/>
 <part name="SUPPLY10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY11" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="R_RESET" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.i3aUetO7RU6W5A7ASBjTVA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47601124/1" value="10K"/>
@@ -2991,9 +2991,8 @@ Stemma QT</text>
 </instance>
 <instance part="BOOT_BUTTON" gate="G$1" x="160.02" y="121.92" smashed="yes" rot="R90"/>
 <instance part="R_CHANGE" gate="G$1" x="180.34" y="139.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="177.038" y="143.51" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="181.8386" y="143.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="177.038" y="143.51" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="177.038" y="146.05" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="162.56" y="152.4" smashed="yes">
 <attribute name="VALUE" x="162.433" y="155.575" size="1.778" layer="96" align="bottom-center"/>
@@ -3013,9 +3012,7 @@ Stemma QT</text>
 <attribute name="NAME" x="151.384" y="122.301" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="151.384" y="112.141" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="RESET_BUTTON" gate="G$1" x="137.16" y="121.92" smashed="yes" rot="R90">
-<attribute name="VALUE" x="139.954" y="121.92" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
+<instance part="RESET_BUTTON" gate="G$1" x="137.16" y="121.92" smashed="yes" rot="R90"/>
 <instance part="SUPPLY12" gate="G$1" x="139.7" y="152.4" smashed="yes">
 <attribute name="VALUE" x="139.573" y="155.575" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -4869,10 +4866,8 @@ Stemma QT</text>
 <approved hash="104,1,241.3,81.28,U1,VCC,3V3,,,"/>
 <approved hash="110,1,-86.36,154.94,PREVGH,PREVGL,,,,"/>
 <approved hash="111,1,-86.36,154.94,PREVGH,,,,,"/>
-<approved hash="113,1,75.8484,158.011,FRAME1,,,,,"/>
 <approved hash="113,1,71.4315,192.367,CHG_LED,,,,,"/>
 <approved hash="113,1,-101.6,204.81,SJ1,,,,,"/>
-<approved hash="113,1,181.43,138.934,R_CHANGE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
